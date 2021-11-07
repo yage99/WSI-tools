@@ -39,7 +39,7 @@ python3 -m pip install -r requirements.txt
    apt-get install openslide-tools (Debian/Ubuntu)
    ```
    2. Windows:
-        1. Download binary zip from [](https://openslide.org/download/).
+        1. Download binary zip from [https://openslide.org/download/](https://openslide.org/download/).
         2. Copy files from `bin` to `C:\Windows\System32`.
 
 ### Screenshots
