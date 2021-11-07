@@ -5,6 +5,25 @@ These images can be found from the TCGA database.
 
 For any question please contact <zhangya998@gmail.com>.
 
+## Prepration
+
+1. Install required python packages:
+
+```
+python3 -m pip install -r requirements.txt
+```
+
+2. Install openslide library:
+   1. MacOS/Linux: see [Openslide Install Guide](https://openslide.org/download/)
+   ```
+   brew install openslide (MacOS)
+   apt-get install openslide-tools (Debian/Ubuntu)
+   ```
+   2. Windows:
+        1. Download binary zip from [https://openslide.org/download/](https://openslide.org/download/).
+        2. Copy files from `bin` to `C:\Windows\System32`.
+
+
 ## retrive\_20x\_images.py
 
 Crop whole slide histopathological images(WSI, svs) to patch.
@@ -23,24 +42,6 @@ Usage:
        the folder where gdc-client download all files
     3. output_folder
        The destination for selected patches.
-
-### Prepration
-
-1. Install required python packages:
-
-```
-python3 -m pip install -r requirements.txt
-```
-
-2. Install openslide library:
-   1. MacOS/Linux: see [Openslide Install Guide](https://openslide.org/download/)
-   ```
-   brew install openslide (MacOS)
-   apt-get install openslide-tools (Debian/Ubuntu)
-   ```
-   2. Windows:
-        1. Download binary zip from [https://openslide.org/download/](https://openslide.org/download/).
-        2. Copy files from `bin` to `C:\Windows\System32`.
 
 ### Screenshots
 
