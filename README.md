@@ -34,9 +34,9 @@ python3 -m pip install -r requirements.txt
 
 2. Install openslide library:
    1. MacOS/Linux: see [Openslide Install Guide](https://openslide.org/download/)
-```
-brew install openslide
-```
+   ```
+   brew install openslide
+   ```
    2. Windows:
         1. Download binary zip from [](https://openslide.org/download/).
         2. Copy files from `bin` to `C:\Windows\System32`.
