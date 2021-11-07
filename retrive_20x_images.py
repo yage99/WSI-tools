@@ -1,3 +1,14 @@
+############################################################
+# 
+# Crop whole slide histopathological images(WSI, svs) to patch.
+# All patches will have 20x magnification. WSIs with 40x magnification are down-
+# sampled to 20x, and WSIs with 5x magnification are discard.
+# Patches that are blank or without enough pathological tissue are filtered.
+# 
+# created by zhangya<zhangya998@gmail.com>
+# 2021-11-07
+#
+############################################################
 #!/usr/bin/python3
 import os
 import numpy as np
