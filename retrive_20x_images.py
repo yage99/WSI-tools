@@ -178,9 +178,9 @@ Patches that are blank or without enough pathological tissue are filtered.
 For any question please contact <zhangya998@gmail.com>
 
 Usage:
-    retrive_20x_images <gdc_meta_txt_file> <gdc_download_folder> <output_folder>
+    retrive_20x_images <gdc_manifest> <gdc_download_folder> <output_folder>
 
-    1. gdc_meta_txt_file
+    1. gdc_manifest_txt_file
        get from TCGA gdc data portal, the same file for the TCGA official downl-
        oader gdc-client.
     2. gdc_download_folder
