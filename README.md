@@ -34,9 +34,9 @@ Patches that are blank or without enough pathological tissue are filtered.
 This script use multi-thread to accerate process, with nice progress bar.
 
 Usage:
-    retrive_20x_images <gdc_meta_txt_file> <gdc_download_folder> <output_folder>
+    retrive_20x_images <gdc_manifest_txt_file> <gdc_download_folder> <output_folder>
 
-    1. gdc_meta_txt_file
+    1. gdc_manifest_txt_file
        get from TCGA gdc data portal, the same file for the TCGA official downloader gdc-client.
     2. gdc_download_folder
        the folder where gdc-client download all files
