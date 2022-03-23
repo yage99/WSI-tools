@@ -27,8 +27,8 @@ python3 -m pip install -r requirements.txt
 ## retrive\_20x\_images.py
 
 Crop whole slide histopathological images(WSI, svs) to patch.
-All patches will have 20x magnification. WSIs with 40x magnification are downsa-
-mpled to 20x, and WSIs with 5x magnification are discard.
+All patches will have 20x magnification. WSIs with 40x magnification are 
+downsampled to 20x, and WSIs with 5x magnification are discard.
 Patches that are blank or without enough pathological tissue are filtered.
 
 This script use multi-thread to accerate process, with nice progress bar.
